@@ -183,7 +183,6 @@ h1{
     width: 100 rem;
 }
 .contact{
-    display: block;
     position: relative;
     width: 100%;
     padding-bottom: 2rem;
@@ -195,16 +194,16 @@ h1{
     margin-right: 25%;
     width: 50%;
     font-size: 2rem;
-
 }
+
 #message{
     height: 8rem;
 }
-#sendbtn{
-    position: relative;
-    width: 10%;
-    margin-left: 70%;
 
+.contact span{
+    position: relative;
+    margin-left: 75%;
+    background: #BF7631;
 }
 
 footer{
