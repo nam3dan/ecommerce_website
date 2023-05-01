@@ -1,0 +1,61 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 63.5%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    margin: 1rem auto;
+    width: 90%;
+    background-color: #FFFFFF;
+    height: 90px;
+}
+
+nav ul {
+    list-style-type: none;
+    position: absolute;
+    top: 0.7rem;
+    left: 1rem;
+}
+nav li {
+    display: inline;
+    margin-left: 0.5rem;
+}
+
+.title {
+    display: inline;
+    position: absolute;
+    left: 50%;
+    right:50%;
+    align-content: start;
+}
+
+
+
+nav .search{
+    position: absolute;
+    top: 0.7rem;
+    right: 1rem;
+}
+
+.search img {
+    width: 20px;
+}
+
+.maingraphic img{
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    grid-template-areas: "top top top" "mid mid mid" "bot bot bot";
+}
