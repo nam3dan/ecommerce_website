@@ -14,11 +14,12 @@ html {
 
 header{
     margin: 1rem auto;
-    width: 90%;
+    width: 80%;
     background-color: #FFFFFF;
-    height: 90px;
+    height: 90rem;
     display: inline;
-    padding: 1rem;
+    padding-bottom: 1%;
+    border-bottom: 80% rgb(21, 255, 0);
 }
 
 nav ul {
@@ -31,25 +32,26 @@ nav li {
     display: inline;
     margin-left: 0.5rem;
     top: 0.7rem;
+    font-size: 1rem;
 }
 
 .title {
-    font-size: 25px;
+    font-size: 3rem;
     position: relative;
     margin-left: auto;
     margin-right: auto;
-    top: -1.0rem;
-    width: 17rem;
+    top: 0.0rem;
+    width: 20rem;
 }
+
 .title img{
-    width: 30px;
+    width: 3rem;
 }
 
 nav .search form{
     position: absolute;
     top: 0.7rem;
     right: 1rem;
-    padding-right: 20px;
 }
 
 .search img {
@@ -57,6 +59,15 @@ nav .search form{
     right: 2.2rem;
     width: 20px;
     top: 0.6rem;
+}
+header hr{
+    border-width: 2px;
+    border-color: black;
+    width: 80%;
+    margin-left: 10%;
+    margin-right:10%;
+    align-items: center;
+    padding-bottom: 20%;
 }
 .maingraphic{
     position: relative;
@@ -72,17 +83,70 @@ nav .search form{
     position: absolute;
     top: 20px;
     left: 20px;
-    width: 200px;
+    width: 20rem;
 }
 .maingraphic .right{
     position: absolute;
     bottom: 20px;
     right: 20px;
-    width: 200px;
+    width: 20rem;
 }
+.about{
+    position: relative;
+    width: 100%;
+    padding-bottom: 1rem;
+}
+.about h2{
+    position: relative;
+    margin-left: 5rem;
+    margin-top: 10rem;
+    padding-bottom: 1rem;
+    border-bottom: 50px black;
+    font-size: 2rem;
+}
+.about .para1{
+    position: relative;
+    margin-left: 10%;
+    margin-top: 10rem;
+    width: 47%;
+    font-size: 200%;
+    padding-right: 5rem;
 
-.row {
-    display: flex;
+}
+.about .para2{
+    position: relative;
+    margin-left: 30%;
+    width: 22%;
+    margin-top: 2%;
+    font-size: 200%;
+
+}
+.about .left{
+    position: relative;
+    float:left;
+    margin-left: 5%;
+    width:20%;
+    padding-top: 5%;
+    padding-right: 2%;
+}
+.about .right{
+    position: relative;
+    float:right;
+    margin-right: 5%;
+    margin-top: -10%;
+    width:35%;
+}
+.products{
+    margin-top: 20rem;
+    position: relative;
+}
+.flex-container {
+    width: 80%;
+    display: grid;
+    gap: 3rem;
     flex-direction: column;
     grid-template-areas: "top top top" "mid mid mid" "bot bot bot";
+}
+.contact{
+    position: relative;
 }
