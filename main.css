@@ -9,7 +9,7 @@
 html {
     box-sizing: border-box;
     font-size: 63.5%;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:'Segoe UI';
 }
 
 header{
@@ -20,6 +20,9 @@ header{
     display: inline;
     padding-bottom: 1%;
     border-bottom: 80% rgb(21, 255, 0);
+}
+nav{
+    display: inline;
 }
 
 nav ul {
@@ -32,7 +35,11 @@ nav li {
     display: inline;
     margin-left: 0.5rem;
     top: 0.7rem;
-    font-size: 1rem;
+    font-size: 2rem;
+    margin: 0 1rem;
+}
+nav a {
+    text-decoration: none;
 }
 
 .title {
@@ -40,7 +47,7 @@ nav li {
     position: relative;
     margin-left: auto;
     margin-right: auto;
-    top: 0.0rem;
+    top: -1rem;
     width: 20rem;
 }
 
@@ -96,7 +103,7 @@ header hr{
     width: 100%;
     padding-bottom: 1rem;
 }
-.about h2{
+.about h1{
     position: relative;
     margin-left: 5rem;
     margin-top: 10rem;
@@ -136,17 +143,74 @@ header hr{
     margin-top: -10%;
     width:35%;
 }
-.products{
-    margin-top: 20rem;
+h1{
     position: relative;
+    margin-left: 10rem;
+    margin-top: 10rem;
+    padding-bottom: 1rem;
+    border-bottom: 50px black;
+    font-size: 2rem;
 }
 .flex-container {
-    width: 80%;
+    position: relative;
+    width: 100rem;
+    height: 175rem;
+    padding: 10%;
+    gap: 10rem;
     display: grid;
-    gap: 3rem;
-    flex-direction: column;
-    grid-template-areas: "top top top" "mid mid mid" "bot bot bot";
+    grid-template-areas: "top-l top top-r"  "mid-l mid mid-r"   "bot-l bot bot-r";
+    align-items: center;
+}
+
+.rowitem{
+    position: relative;
+    width: 100%;
+    grid:0%
+}
+.rowitem img{
+    width:30rem;
+    height: 30rem;
+    border: 3px black;
+}
+.rowitem h2{
+    width: 100 rem;
+    color: #707070;
+    display: inline;
+    margin: 0 10%;
+}
+
+.rowitem h3{
+    width: 100 rem;
 }
 .contact{
+    display: block;
     position: relative;
+    width: 100%;
+    padding-bottom: 2rem;
+    }
+
+.contact #email, #message, label{
+    display: block;
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+    font-size: 2rem;
+
+}
+#message{
+    height: 8rem;
+}
+#sendbtn{
+    position: relative;
+    width: 10%;
+    margin-left: 70%;
+
+}
+
+footer{
+    position: absolute;
+    bottom:auto;
+    background-color: #BF7631;
+    width: 100%;
+    height: 10rem;
 }
