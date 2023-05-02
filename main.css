@@ -18,7 +18,7 @@ header{
     background-color: #FFFFFF;
     height: 90rem;
     display: inline;
-    padding-bottom: 1%;
+    padding-bottom: 5%;
     border-bottom: 80% rgb(21, 255, 0);
 }
 nav{
@@ -147,7 +147,8 @@ h1{
     position: relative;
     margin-left: 10rem;
     margin-top: 10rem;
-    padding-bottom: 2rem;
+    padding-top: 5%;
+    padding-bottom: 5%;
     border-bottom: 50px black;
     font-size: 2rem;
 }
@@ -155,7 +156,9 @@ h1{
     position: relative;
     width: 100rem;
     height: 175rem;
-    padding: 10%;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-top: 5%;
     gap: 10rem;
     display: grid;
     grid-template-areas: "top-l top top-r"  "mid-l mid mid-r"   "bot-l bot bot-r";
@@ -185,7 +188,7 @@ h1{
 .contact{
     position: relative;
     width: 100%;
-    padding-bottom: 2rem;
+    padding-bottom: 5%;
     }
 
 .contact #email, #message, label{
@@ -221,8 +224,8 @@ footer .footline1{
     position: relative;
     display: inline-flex;
     gap: 3rem;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 30%;
+    margin-right: 30%;
 }
 
 footer img{
